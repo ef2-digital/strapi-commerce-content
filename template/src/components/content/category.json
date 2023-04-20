@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_categories",
+  "info": {
+    "displayName": "Category",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Target": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

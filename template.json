@@ -1,0 +1,15 @@
+{
+  "package": {
+    "dependencies": {
+      "@strapi/plugin-graphql": "4.9.1",
+      "@strapi/plugin-i18n": "4.9.1",
+      "@strapi/plugin-seo": "^1.7.2",
+      "@strapi/plugin-users-permissions": "4.9.1",
+      "pg": "8.6.0",
+      "strapi-plugin-config-sync": "^1.0.1",
+      "strapi-plugin-menus": "^0.3.1",
+      "strapi-plugin-react-editorjs": "^2.0.1",
+      "strapi-plugin-populate-deep": "2.0.0"
+    }
+  }
+}

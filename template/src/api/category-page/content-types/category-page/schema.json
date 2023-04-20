@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "category_pages",
+  "info": {
+    "singularName": "category-page",
+    "pluralName": "category-pages",
+    "displayName": "Category Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "category_id": {
+      "type": "integer",
+      "unique": true
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "dynamic.banner",
+        "dynamic.context-aware-component",
+        "dynamic.header-teasers",
+        "dynamic.text-block",
+        "dynamic.product-slider",
+        "dynamic.highlighted-categories"
+      ],
+      "required": true
+    }
+  }
+}

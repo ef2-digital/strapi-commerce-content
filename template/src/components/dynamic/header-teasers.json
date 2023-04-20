@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_dynamic_header_teasers",
+  "info": {
+    "displayName": "Header teasers",
+    "icon": "grip-horizontal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Teaser": {
+      "displayName": "Teaser",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.teaser",
+      "max": 4,
+      "min": 1
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_dynamic_highlighted_categories",
+  "info": {
+    "displayName": "Highlighted Categories",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Category": {
+      "displayName": "Category",
+      "type": "component",
+      "repeatable": true,
+      "component": "content.category"
+    }
+  }
+}

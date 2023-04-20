@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_products",
+  "info": {
+    "displayName": "Product",
+    "icon": "cart-arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "Article_number": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}

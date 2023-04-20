@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_dynamic_product_sliders",
+  "info": {
+    "displayName": "Product slider",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Product": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.product",
+      "required": true,
+      "min": 1
+    }
+  }
+}
